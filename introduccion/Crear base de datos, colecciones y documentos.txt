@@ -1,0 +1,20 @@
+cuando uso una base de datos y inserto un dato en una coleccion si no existe 
+mongoDB crea ese base de datos con esa coleccion
+
+crear base de datos 
+> use 'nombre de la db'
+crear base de datos con datos .save es una funcion que guarda se guardan en formato BSON
+> db.'nombre de tu db'.save({nombre: 'shenick', web: 'jac.mx'})
+ejemplo completo
+db.usuarios.save({nombre:'shenick', web:'jac.mx'});
+
+usar db
+use 'data base name'
+
+ver colleciones
+show collections
+
+ver documentos que hay en la coleccion
+db.'collection name'.find();
+db.usuarios.find();
+

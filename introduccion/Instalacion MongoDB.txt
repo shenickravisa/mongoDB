@@ -1,0 +1,28 @@
+ir al siguiente link
+https://www.mongodb.com/cloud/atlas/register
+
+Escogemos la version
+mongo DB community server
+
+$ sudo apt install -y mongodb
+$ mongo --eval 'db.runCommand({ connectionStatus: 1 })'
+$ sudo systemctl status mongodb
+$ sudo systemctl stop mongodb
+$ sudo systemctl start mongodb
+$ sudo systemctl restart mongodb
+Por defecto, MongoDB está configurado para iniciarse automáticamente con el servidor. Si desea deshabilitar el inicio automático, escriba:
+$ sudo systemctl disable mongodb
+Es igual de fácil habilitarlo de nuevo. Para ello, utiliza:
+$ sudo systemctl enable mongodb
+
+primeros pasos con MongoDB
+
+> mongo
+ingresas a mongo 
+> db.show()
+ingresas a la terminal de mongo shell
+
+ver bases de datos 
+> show dbs;
+ver logs
+> show logs;

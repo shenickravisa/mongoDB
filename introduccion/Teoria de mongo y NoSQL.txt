@@ -1,0 +1,46 @@
+Que es mongoDB ?
+R.- MongoDB es una base de datos no relacional NoSQL
+
+Tipos de base de datos
+SQL                     
+-Relacionales
+-Tablas
+-Esquema
+(conjuntos que se relacionan mendiante indices, consultas multitabla joins etc.)
+(Tablas que contienen las mismas filas y variables por ende el esquema es fijo)
+
+NoSQL
+-No Relacionales
+-Javascript
+-Orientadas a documentos (JSON BSON)
+-Sencillez
+-Velocidad
+-Esquema libre
+(No existe un lenguaje SQL se utiliza Javascript, no hay relacion entre ambas pero se pueden hacer simuladores usando relaciones con JS)
+(no existen tablas, existen colecciones de documentos que son objetos json {BSON-> binary json})
+(el esquema es libre en documento se pueden tener diferentes atributos sin tener restricciones)
+
+Esquema tabla SQL
+
+        Columna
+
+filas   {registro}
+
+Mongo DB colecciones
+
+            Campo
+
+Documento   datos doc.
+
+[{
+    nombre: 'Shenick',
+    apellido: 'Guzman',
+    email: 's.guzman@ravisahaus.mx'
+
+}]
+
+el key -> es el Campo
+el value -> es el dato de documento
+el documento es el objeto JSON
+una coleccion es un array del objeto JSON 
+
